@@ -10,6 +10,7 @@ import { X, Search } from 'react-bootstrap-icons'
 import { debounce, DEBOUNCE_TIME, axios } from './constants'
 import Result from './Components/Result'
 import data from './constants/data.json'
+import SampleFooter from './Components/SampleFooter'
 
 // Bootstrap React Components
 // https://react-bootstrap.netlify.app/components/forms
@@ -20,6 +21,7 @@ import data from './constants/data.json'
 export default function SearchPage() {
   const [loading, setLoading] = useState(false)
   const [results, setResults] = useState([])
+  const [show, setShow] = useState(true)
   const input = useRef(null)
 
   useEffect(() => {
@@ -47,10 +49,12 @@ export default function SearchPage() {
 		[] // will be created only once initially
   )
 
-
   return (
     <>
       <h1 className="display-1 my-2"><Search className="mb-4 mr-4 sway" size={60} />Search</h1>
+      {/* <SampleFooter show={show} />
+      <Button onClick={() => setShow(true)}>show</Button>
+      <Button onClick={() => setShow(false)}>hide</Button> */}
       <Form className="my-4 mx-auto w-100">
         <Tabs defaultActiveKey="search">
           <Tab eventKey="search" title="Search">
