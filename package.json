@@ -16,7 +16,8 @@
     "timeago.js": "^4.0.2"
   },
   "scripts": {
-    "start": "node server.js",
+    "server": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
   },

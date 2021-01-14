@@ -1,223 +1,112 @@
 [
-
   {
-
     "*index": "confluence*data",
-
     "*type": "*doc",
-
     "_id": "1",
-
     "_score": 4.479961,
-
     "_source": {
-
       "id": "283",
-
       "title": "XML Schema",
-
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
     }
-
   },
-
   {
-
     "*index": "confluence*data",
-
     "*type": "*doc",
-
     "_id": "16",
-
     "_score": 3.872776,
-
     "_source": {
-
       "id": "371",
-
       "title": "XML Encoding Issues",
-
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
     }
-
   },
-
   {
-
     "*index": "confluence*data",
-
     "*type": "*doc",
-
     "_id": "32",
-
     "_score": 3.7505372,
-
     "_source": {
-
       "id": "560",
-
       "title": "System Test Environment",
-
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
     }
-
   },
-
   {
-
     "*index": "confluence*data",
-
     "*type": "*doc",
-
     "_id": "95",
-
     "_score": 3.6885526,
-
     "_source": {
-
       "id": "1203",
-
       "title": "Axis vs Oracle evaluation",
-
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
     }
-
   },
-
   {
-
     "*index": "confluence*data",
-
     "*type": "*doc",
-
     "_id": "85",
-
     "_score": 3.1139011,
-
     "_source": {
-
       "id": "1117",
-
       "title": "System Test Plans",
-
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
     }
-
   },
-
   {
-
     "*index": "confluence*data",
-
     "*type": "*doc",
-
     "_id": "73",
-
     "_score": 2.936399,
-
     "_source": {
-
       "id": "971",
-
       "title": "Identity Access Management",
-
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
     }
-
   },
-
   {
-
     "*index": "confluence*data",
-
     "*type": "*doc",
-
     "_id": "49",
-
     "_score": 2.4524117,
-
     "_source": {
-
       "id": "672",
-
       "title": "07*13*2005 Minutes",
-
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
     }
-
   },
-
   {
-
     "*index": "confluence*data",
-
     "*type": "*doc",
-
     "_id": "7",
-
     "_score": 1.940743,
-
     "_source": {
-
       "id": "299",
-
       "title": "Project Information",
-
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
     }
-
   },
-
   {
-
     "*index": "confluence*data",
-
     "*type": "*doc",
-
     "_id": "25",
-
     "_score": 1.2119262,
-
     "_source": {
-
       "id": "430",
-
       "title": "Luminis Development Suggestion",
-
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
     }
-
   },
-
   {
-
     "*index": "confluence*data",
-
     "*type": "*doc",
-
     "_id": "61",
-
     "_score": 1.0199568,
-
     "_source": {
-
       "id": "812",
-
       "title": "2005.07.14 Minutes",
-
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
     }
-
   }
-
 ]

@@ -122,3 +122,10 @@ a {
 /* bootstrap colors
 danger = #c82333
 info = #138496 */
+
+
+@media (max-width: 770px) {
+  .display-1, .display-2, .display-3, .display-4 {
+    font-size: 2em;
+  }
+}

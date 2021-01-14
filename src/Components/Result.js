@@ -6,7 +6,7 @@ import { useHistory } from 'react-router-dom'
 
 export default function Result({ result }) {
   const history = useHistory();
-  console.log('DEBUG', result)
+  // console.log('DEBUG', result)
 
   function handleClick() {
     // TODO: this current implementation does not save the search result state

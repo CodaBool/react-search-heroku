@@ -25,7 +25,7 @@ function Navigation() {
       <Navbar.Collapse>
         <Nav>
           <NavLink to='/' exact activeClassName="selected">search</NavLink>
-          <NavLink to='about' exact activeClassName="selected">about</NavLink>
+          <NavLink to='/about' exact activeClassName="selected">about</NavLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

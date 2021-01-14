@@ -10,7 +10,6 @@ import { X, Search } from 'react-bootstrap-icons'
 import { debounce, DEBOUNCE_TIME, axios } from './constants'
 import Result from './Components/Result'
 import data from './constants/data.json'
-import SampleFooter from './Components/SampleFooter'
 
 // Bootstrap React Components
 // https://react-bootstrap.netlify.app/components/forms
@@ -21,7 +20,6 @@ import SampleFooter from './Components/SampleFooter'
 export default function SearchPage() {
   const [loading, setLoading] = useState(false)
   const [results, setResults] = useState([])
-  const [show, setShow] = useState(true)
   const input = useRef(null)
 
   useEffect(() => {
@@ -34,6 +32,7 @@ export default function SearchPage() {
   }
 
   function handleSearch(e) {
+    e.preventDefault()
     setLoading(true)
     startDebounce(e.target.value)
   }
@@ -52,10 +51,7 @@ export default function SearchPage() {
   return (
     <>
       <h1 className="display-1 my-2"><Search className="mb-4 mr-4 sway" size={60} />Search</h1>
-      {/* <SampleFooter show={show} />
-      <Button onClick={() => setShow(true)}>show</Button>
-      <Button onClick={() => setShow(false)}>hide</Button> */}
-      <Form className="my-4 mx-auto w-100">
+      <Form className="my-4 mx-auto w-100" onSubmit={(e) => e.preventDefault()}>
         <Tabs defaultActiveKey="search">
           <Tab eventKey="search" title="Search">
             <InputGroup className="my-5">
@@ -64,7 +60,6 @@ export default function SearchPage() {
                 <InputGroup.Text>Clear <X className="mt-1 p-0" size={20} /></InputGroup.Text>
               </InputGroup.Prepend>
             </InputGroup>
-            
             {loading 
               ? 
                 <Row>
